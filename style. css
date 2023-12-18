@@ -1,0 +1,35 @@
+/* Pour le formulaire */
+
+.container{
+    border: black solid 1px;
+    width: 78%;
+    /* width: 85%; */
+    height: 605px;
+    /* margin-left: 14%; */
+    margin-left: 10%;
+    margin-top: -30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    left: 30px;
+    top: 50px;
+    font-family: 'Constantia' sans-serif;
+    font-weight: bold;
+    font-size: small;
+    
+}
+
+.formulaire{
+    display: flex;
+    gap: 30px;
+}
+
+img{
+    width: 285px;
+    height: 605px;
+    margin-right: -64px;
+    object-fit: cover;
